@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL Shortening</title>
+  <link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png">
+  <!-- main css -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- normalize css -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- START HEADER -->
+  <header>
+    <div class="container">
+
+      <div class="logo">
+        <img src="images/logo.svg" alt="Logo">
+      </div>
+
+      <nav>
+
+        <div class="menu-btn">
+          <ion-icon name="menu-outline"></ion-icon>
+        </div>
+
+        <div class="nav-actions">
+
+          <ul class="menu">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Resorces</a></li>
+          </ul>
+
+          <ul class="log-actions">
+            <li><a href="#" class="login">Login</a></li>
+            <li><a href="#" class="sign-up">Sign Up</a></li>
+          </ul>
+
+        </div>
+
+      </nav>
+
+    </div>
+  </header>
+  <!-- END HEADER -->
+
+  <!-- START LANDING -->
+  <section class="landing">
+    <div class="container">
+
+      <div class="description">
+        <h1 class="slogan"> More than just shorter links </h1>
+        <p>Build your brand’s recognition and get detailed insights on how your links are performing</p>
+        <a href="#" class="get-started">Get Started</a>
+      </div>
+
+      <div class="illustration">
+        <img src="images/illustration-working.svg" alt="">
+      </div>
+
+    </div>
+  </section>
+  <!-- END LANDING -->
+
+  <!-- START URL SECTION -->
+  <section class="shortening">
+    <div class="container">
+
+      <form action="">
+        <input type="text" placeholder="Shorten a link here..." id="user-input">
+        <input type="submit" value="Shorten it!">
+      </form>
+
+      <div class="shortened-links">
+
+        <!-- <div class="link">
+          <span class="entered-link">https://www.frontendmentor.io</span>
+
+          <div class="results">
+            <span class="shortened">https://rel.ink/k4lKyk</span>
+            <button class="copy">Copy</button>
+          </div>
+        </div>
+         -->
+
+      </div>
+
+    </div>
+  </section>
+  <!-- END URL SECTION -->
+
+  <!-- START STATS -->
+  <section class="stats">
+    <div class="container">
+
+      <div class="title">
+        <h2>Advances Statistics</h2>
+        <p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
+      </div>
+
+      <div class="stats-box">
+
+        <div class="stat">
+          <div class="image">
+            <img src="images/icon-brand-recognition.svg" alt="logo">
+          </div>
+          <h3>Brand Recognition</h3>
+          <p>
+            Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil
+            confidence in your content.
+          </p>
+        </div>
+
+        <div class="stat">
+          <div class="image">
+            <img src="images/icon-detailed-records.svg" alt="logo">
+          </div>
+          <h3>Detailed Records</h3>
+          <p>
+            Gain insights into who is clicking your links. Knowing when and where people engage with your content helps
+            inform better decisions.
+          </p>
+        </div>
+
+        <div class="stat">
+          <div class="image">
+            <img src="images/icon-fully-customizable.svg" alt="logo">
+          </div>
+          <h3>Fully Customizable</h3>
+          <p>
+            Improve brand awareness and content discoverability through customizable links, supercharging audience
+            engagement.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- END STATS -->
+
+  <!-- START BOOST -->
+  <section class="boost">
+
+    <h2>Boost your links today</h2>
+    <a href="#" class="get-started">Get Started</a>
+
+  </section>
+  <!-- END BOOST -->
+
+  <!-- START FOOTER -->
+  <footer>
+    <div class="container">
+
+      <div class="logo">
+        <img src="images/logo.svg" alt="logo">
+      </div>
+
+      <ul class="features">
+        Features
+        <li>Link Shortening</li>
+        <li>Branded links</li>
+        <li>Analytics</li>
+      </ul>
+
+      <ul class="resorces">
+        Resources
+        <li>Blog</li>
+        <li>Developers</li>
+        <li>Support</li>
+      </ul>
+
+      <ul class="company">
+        Company
+        <li>About</li>
+        <li>Our Team</li>
+        <li>Careers</li>
+        <li>Contact</li>
+      </ul>
+
+      <div class="social">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon>
+        <ion-icon name="logo-pinterest"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+      </div>
+
+    </div>
+  </footer>
+  <!-- END FOOTER -->
+  <a href="https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G" class="challenge">Frontend
+    Mentor Challange</a>
+  <style>
+    a.challenge {
+
+      display: inline-flex;
+      font-size: 1.2rem;
+      color: #fff;
+      width: 100%;
+      background: #000;
+      padding: 10px;
+
+
+    }
+  </style>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
